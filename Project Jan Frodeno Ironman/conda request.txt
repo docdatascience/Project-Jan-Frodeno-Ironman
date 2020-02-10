@@ -1,0 +1,19 @@
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+import seaborn as sns
+import pandas as pd
+import numpy as np
+import matplotlib
+import numpy
+import csv
+from pandas.plotting import register_matplotlib_converters
+register_matplotlib_converters()
+import matplotlib.dates as mdates
+from matplotlib import style
+from scipy import stats
+from scipy.special import ndtri
+import statsmodels.api as sm
+from sklearn.linear_model import LinearRegression
+import statsmodels.formula.api as smapi
+from statsmodels.formula.api import ols
+import statsmodels.graphics as smgraph
